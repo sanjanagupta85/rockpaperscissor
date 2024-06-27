@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1{
+    background-color: teal;
+    height: 70px;
+    color: white;
+    line-height: 70px;
+    
+    
+}
+.choices{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    gap:2rem;
+   
+}
+.choice{
+    height: 165px;
+    width: 165px;
+    display: flex;
+    border-radius: 50%;
+
+    justify-content: center;
+    align-items: center;
+ 
+}
+.choice:hover{
+    cursor: pointer;
+    background-color: teal;
+}
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover; /*to avoid distortion*/
+    border-radius: 50%;
+
+}
+.score-board{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+    gap:2rem;
+   
+}
+#userscore{
+    font-size: 4rem;
+}
+#compscore{
+    font-size: 4rem;
+}
+.messageContainer{
+    margin-top: 3rem;
+}
+#message{
+    
+    background-color: teal;
+    color:white;
+    font-size: 2rem;
+    display: inline ;
+    padding: 1rem;
+    border-radius: 1rem;
+}
